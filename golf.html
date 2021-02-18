@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ponaganset Education Foundation</title>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="assets/media/PEFLogo.PNG" class="logo" alt="Ponaganset Education Foundation's logo">
+        &nbsp;&nbsp;&nbsp; Helping to make college affordable
+    </div>
+
+    <ul>
+        <li><a href="index.html">About Us</a></li>
+        <li><a class="active" href="events.html">Events</a></li>
+        <li><a href="mission.html">Our Mission</a></li>
+        <li><a href="contributions.html">Contributions</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="board.html">The Board</a></li>
+        <li><a href="contact.html"> Contact</a></li>
+    </ul>
+
+    <h1>
+        Golf Tournament
+    </h1>
+
+    <h2>
+        Registration and Information
+    </h2>
+
+    <form method="POST" name="registration" action="register.php">
+        Name: <br/> <input type="text" name="name"> <br/><br/>
+
+        Address: <br/><input type="text" name="addr">  <br/><br/>
+
+        City: <br/><input type="text" name="city">  <br/><br/>
+
+        State:<br/> <input type="text" name="state">  <br/><br/>
+
+        Zip Code: <br/><input type="text" name="zip">  <br/><br/>
+
+        Email Address: <br/><input type="text" name="email">  <br/><br/>
+
+        <input type="radio" id="assignteam" name="assign" value="Assign me to a foursome">
+        <label for="assignteam">Assign me to a foursome</label><br>
+
+        <input type="radio" id="team" name="assign" value="Team">
+        <label for="team">I have my own team</label><br>
+        
+        <input type="submit" value="Send Form">
+    </form>
+
+
+</body>
+</html>
