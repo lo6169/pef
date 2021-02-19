@@ -1,0 +1,121 @@
+/*
+    Pono green - #006646
+    Off white - #dfe6df
+    Light green - #A4CDC6
+    White - #FFFFFF
+
+    font-family: 'Noto Serif JP', serif;
+*/
+
+:root
+{
+    --ponoGreen: #006646;
+    --offWhite: #cfe6df;
+    --lightGreen: #A4CDC6;
+}
+
+html
+{
+    font-family: 'Noto Serif JP', serif;
+    overflow-x: hidden;
+}
+
+.header
+{
+    background-color: var(--offWhite);
+    width: 100vw;
+    max-width: 100%;
+
+    font-family: 'Lato', serif;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 1%;
+    margin: 0;
+    
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--ponoGreen);
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .active
+{
+    background-color: var(--lightGreen);
+    color: black;
+}
+
+.logo
+{
+    height: 120px;
+}
+
+h1
+{
+    size: 2em;
+    text-align: center;
+    font-family: 'Lato', serif;
+    margin: 2%;
+    font-weight: normal;
+}
+
+h2
+{
+    size: 1.25em;
+    text-align: center;
+    font-family: 'Lato', serif;
+    margin: 2% 2% 2% 20%;
+    font-weight: lighter;
+    width: 60%;
+    line-height: 175%;
+}
+
+.event
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+.not-bold
+{
+    font-weight: normal;
+    width: 60%;
+    margin: 2% 2% 2% 20%;
+}
+
+h3
+{
+    size: 1em;
+    text-align: center;
+    font-family: 'Lato', serif;
+    margin: 2% 2% 2% 40%;
+    font-weight: lighter;
+    width: 20%;
+}
+
+.banner
+{
+    max-width: 100%;
+    background-color: var(--ponoGreen);
+    height: 25vh;
+    text-align: center;
+    vertical-align: middle;
+}
